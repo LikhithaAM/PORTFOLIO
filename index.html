@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>My PortFolio</title>
+    <style>
+
+        *{
+            margin: 0px;
+        }
+        .home{
+            height: 100vh;
+            width:100%;
+            background-color: rgb(216, 103, 245);
+        }
+        .home nav{
+            /* border: solid; */
+            width: 400px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            position: absolute;
+            right: 70px;
+          
+        }
+        nav a{
+            text-decoration: none;
+            font-size: 30px;
+            font-family:'Times New Roman', Times, serif;
+            color: rgb(7, 7, 9);
+            font-weight: 200;
+            margin: 25px;
+        }
+        .main .name{
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translate(-150px,-100px);
+            width:90%;
+            height: 500px;
+
+        }
+        .name h1{
+            color: rgb(13, 12, 14);
+            font-size: 50px;
+            /* width: 500px; */
+            text-align: center;
+            /* margin-left: 70px; */
+            padding-left: 480px;
+            align-items: center;
+
+        }
+        .name h2{
+            color: rgb(14, 13, 15);
+            font-size: 50px;
+            width: 500px;
+            /* font-family: ; */
+            padding-left: 640px;
+
+        }
+        #icon{
+            /* position: relative; */
+            margin-top: 50px;
+            /* margin-left: 50px; */
+            font-size: 100px;
+            color: rgb(17, 14, 14);
+            animation: bounce .5s ease infinite alternate;
+            padding-left: 300px;
+        }
+        @keyframes bounce{
+            from{
+                transform: translate(0px);
+            }
+            to{
+                transform: translateY(5px);
+            }
+        }
+        .about{
+            height: 100vh;
+            width: 100%;
+            background-color: rgb(58, 154, 233);
+        }
+        .about h2{
+            font-size:50px ;
+            color: rgb(8, 7, 9);
+            text-align: center;
+            left: 280px;
+            /* font-family: ; */
+        }
+        .material-symbols-outlined{
+            font-size:60px;
+            margin-top:60px;
+            margin-left:150px;
+
+        }
+         .about img{
+            /* height:180px; */
+            /* width:180px; */
+            position: relative;
+            border-radius: 50%;
+            margin-left:610px;
+            margin-top:20px;
+
+        }
+         .about p{
+            font-size:25px;
+            text-align:justify;
+            align-items: center;
+            position: relative;
+            color:black;
+            top: -70px;
+            /* font-weight:50px; */
+            font-family:Arial, Helvetica, sans-serif ;
+            /* font-size:30px; */
+            padding: 200px;
+           
+         }
+        .skills{
+            height:100vh;
+            width:100%;
+            background-color: rgb(62, 53, 239);
+            /* padding-left:10px; */
+            /* border: black solid; */
+            padding-bottom: 50px;
+        }
+        .skills h1{
+            color: rgb(5, 45, 4);
+            font-size: 50px;
+            /* margin-top:10px; */
+            margin-left:550px;
+        }
+        .clang{
+            height:30px;
+            width:90%;
+            border-radius:50px;
+            border: black solid;
+            background-image:linear-gradient(rgb(225, 100, 17),rgb(98, 169, 60));
+
+            
+            animation-name:load;
+            animation-duration:5s;
+            animation-timing-function:ease-in-out;
+            animation-iteration-count:initial;
+            animation-direction:alternate;
+        }
+            @keyframes load {
+                from{
+                   width:0px;
+                }
+                to{
+                    width:90%;
+
+                }
+            }
+            .python{
+            height:30px;
+            width:70%;
+            border-radius:50px;
+             border: black solid;
+            background-image:linear-gradient(rgb(225, 100, 17),rgb(98, 169, 60));
+
+            
+            animation-name:load1;
+            animation-duration:5s;
+            animation-timing-function:ease-in-out;
+            animation-iteration-count:initial;
+            animation-direction:alternate;
+        }
+            @keyframes load1 {
+                from{
+                   width:0px;
+                }
+                to{
+                    width:70%;
+
+
+                }
+            }
+            .html{
+            height:30px;
+            width:90%;
+            border-radius:50px;
+             border: black solid;
+            background-image:linear-gradient(rgb(225, 100, 17),rgb(98, 169, 60));
+
+            
+            animation-name:load2;
+            animation-duration:5s;
+            animation-timing-function:ease-in-out;
+            animation-iteration-count:initial;
+            animation-direction:alternate;
+        }
+            @keyframes load2 {
+                from{
+                   width:0px;
+                }
+                to{
+                    width:90%;
+
+
+                }
+            }
+            .css{
+            height:30px;
+            width:70%;
+            border-radius:50px;
+             border: black solid;
+            background-image:linear-gradient(rgb(225, 100, 17),rgb(98, 169, 60));
+
+            
+            animation-name:load3;
+            animation-duration:5s;
+            animation-timing-function:ease-in-out;
+            animation-iteration-count:initial;
+            animation-direction:alternate;
+        }
+            @keyframes load3 {
+                from{
+                   width:0px;
+                }
+                to{
+                    width:70%;
+
+
+                }
+            }
+            .sql{
+            height:30px;
+            width:70%;
+            border-radius:50px;
+             border: black solid;
+            background-image:linear-gradient(rgb(225, 100, 17),rgb(98, 169, 60));
+
+            
+            animation-name:load4;
+            animation-duration:5s;
+            animation-timing-function:ease-in-out;
+            animation-iteration-count:initial;
+            animation-direction:alternate;
+        }
+            @keyframes load4 {
+                from{
+                   width:0px;
+                }
+                to{
+                    width:70%;
+
+
+                }
+            }
+            .skills p{
+                font-size:30px;
+                /* font-weight:10px; */
+            }
+            .outer1{
+                background-color:rgb(62, 76, 189);
+                color: black;
+                height:30px;
+                width:80%;
+                
+            }
+            .clang p{
+                margin-left:968px;
+                font-size:20px;
+            }
+            .outer2{
+                background-color:rgb(62, 76, 189);
+                color: black;
+                height:30px;
+                width:80%;
+            }
+            .python p{
+                margin-left:968px;
+                font-size:20px;
+            }
+            .outer3{
+                background-color:rgb(62, 76, 189);
+                color: black;
+                height:30px;
+                width:80%;
+            }
+            .html p{
+                margin-left:968px;
+                font-size:20px;
+            }
+            .outer4{
+                background-color:rgb(62, 76, 189);
+                color: black;
+                height:30px;
+                width:80%;
+            }
+            .css p{
+                margin-left:968px;
+                font-size:20px;
+            }
+            .outer5{
+                background-color:rgb(62, 76, 189);
+                color: black;
+                height:30px;
+                width:80%;
+            }
+            .sql p{
+                margin-left:968px;
+                font-size:20px;
+            }
+            .projects{
+            height:980px;
+            width:100%;
+            background-color: rgb(219, 123, 243);
+        }
+            .projects h1{
+            color: rgb(25, 20, 22);
+            font-size: 50px;
+            /* margin-top:10px; */
+            margin-left:550px;
+        }
+        .projects img{
+            border-radius: 70%;
+            height:250px;
+            width:250px;
+            border:2px solid antiquewhite;
+            margin-left:100px;
+            margin-top:50px;
+        }
+        .projects p{
+            margin-left:400px;
+            margin-top:-200px;
+            font-size:25px;
+            
+        }
+        .pro{
+            height: 60px;
+            width: 90px;
+            border:3px solid darkmagenta;
+            background-color: rgb(71, 5, 71);
+            color:white;
+            margin-left:500px;
+            margin-top:70px;
+        }
+        .pro1{
+            height: 60px;
+            width: 90px;
+            border:3px solid darkmagenta;
+            background-color: rgb(64, 8, 64);
+            color: white;
+            margin-left:615px;
+            /* margin-top:-10px; */
+            /* margin-bottom:200px; */
+            position:absolute;
+            top:1990px;
+            right:530px;
+        }
+        .st{
+            margin-top:70px;
+            margin-left:-5px;
+        }
+        .st img{
+            margin-left:95px;
+        }
+        .pro1a{
+            height: 60px;
+            width: 90px;
+            border:3px solid darkmagenta;
+            background-color: rgb(71, 5, 71);
+            color:white;
+            margin-left:58px;
+            margin-top:29px;
+            position:absolute;
+            /* margin-bottom:8px; */
+        }
+        .pro1aa{
+            height: 60px;
+            width: 90px;
+            border:3px solid darkmagenta;
+            background-color: rgb(71, 5, 71);
+            color:white;
+            margin-left:500px;
+            margin-top:30px;
+        } 
+        .ott{
+            margin-top:48px;
+        }
+        .ott img{
+            margin-left:95px;
+        }
+        .proabc{
+            height: 60px;
+            width: 90px;
+            border:3px solid darkmagenta;
+            background-color: rgb(71, 5, 71);
+            color:white;
+            margin-left:500px;
+            margin-top:29px;
+            position:absolute;
+            /* margin-bottom:8px; */
+        }
+        .pro1abc{
+            height: 60px;
+            width: 90px;
+            border:3px solid darkmagenta;
+            background-color: rgb(71, 5, 71);
+           margin-top:30px;
+           color: white;
+           margin-left:650px;
+        } 
+        .port{
+            margin-top:65px;
+        }
+        .pro11{
+            height: 60px;
+            width: 90px;
+            border:3px solid darkmagenta;
+            background-color: rgb(71, 5, 71);
+            color:white;
+            margin-left:500px;
+            margin-top:29px;
+            /* position:absolute; */
+            /* margin-bottom:8px; */
+        }
+        .pro12{
+            height: 60px;
+            width: 90px;
+            border:3px solid darkmagenta;
+            background-color: rgb(71, 5, 71);
+            margin-top:30px;
+           color: white;
+           margin-left:200px;
+        } 
+        .resume{
+            height:300px;
+            width:100%;
+            background-color: rgb(93, 244, 219);
+        }
+        .resume h1{
+            text-align: center;
+            color: rgb(6, 88, 86);
+            font-size:50px;
+        
+        }
+        .resume1{
+            height:70px;
+            width:200px;
+            margin-left:528px;
+            background-color: rgb(39, 38, 39);
+        }
+
+        .contacts{
+            display: inline-block;
+            height:200px;
+            width: 100%;
+            background-color: rgb(89, 90, 89);
+            /* padding-left:110px; */
+            
+        }
+        .contacts h1{
+            color: rgb(0, 0, 0);
+            font-size: 50px;
+            /* margin-top:10px; */
+            margin-left:600px;
+        
+        }
+        .contacts span{
+            color:black;
+            font-size:30px;
+            margin-right:5px;
+        }
+        .contacts a{
+            size:20px;
+            color: black;
+            margin: -5px;
+        }
+        #ph{
+            height:30px;
+            width:30px;
+            border-radius:50%;
+            margin-left:50px;
+        }
+        #ph1{
+            font-size:20px;
+            margin-left:90px;
+            margin-top:-35px;
+            /* font-weight:900; */
+        }
+        #or{
+            margin-left:290px;
+            margin-top:-39px;
+            height:65px;
+        }
+        #em{
+            height:30px;
+            width:30px;
+            border-radius:50%;
+            /* margin-left:-5px;
+            margin-top:-35px; */
+            position: relative;
+            top:-28px;
+        }
+        #em1{
+            font-size:20px;
+            margin-left:330px;
+            margin-top:-65px;
+            /* font-weight:900; */
+        }
+        #or1{
+            margin-left:620px;
+            margin-top:-40px;
+            height:65px;
+        }
+        #in{
+            height:30px;
+            width:30px;
+            position: relative;
+            top:-35px;
+        }
+        #in1{
+            font-size:20px;
+            margin-left:670px;
+            margin-top:-65px;
+            /* font-weight:900; */
+        }
+        #or2{
+            margin-left:500px;
+            margin-top:-45px;
+            height:70px;
+        }
+        #gt{
+            height:30px;
+            width:30px;
+            position: relative;
+            top:-30px;
+            border-radius: 50%;
+        }
+        #gt1{
+            font-size:20px;
+            margin-left:810px;
+            margin-top:-70px;
+            /* font-weight:900; */
+        }
+        #or3{
+            margin-left:900px;
+            margin-top:-80px;
+            height:60px;
+        }
+        #ln{
+            height:30px;
+            width:30px;
+            position: relative;
+            top:-26px;
+            border-radius: 50%;
+        }
+        #ln1{
+            font-size:20px;
+            margin-left:950px;
+            margin-top:-65px;
+            /* font-weight:900; */
+        }
+        .resume{
+            height:300px;
+            width:90%;
+            background-color: rgb(230, 145, 250);
+        }
+        .resume h1{
+            text-align: center;
+            color: rgb(6, 88, 86);
+            font-size:50px;
+        
+        }
+        .resume1{
+            height:70px;
+            width:200px;
+            margin-left:620px;
+            background-color: rgb(222, 162, 30);
+        }
+        .contacts img:hover{
+            transform:scale(1);
+        }
+        .divclass a{
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-around;
+            margin-left:90px;
+            color: black;
+        }
+        .divclass{
+            margin-left:90px;
+        }
+        .nvv{
+            display:flex;
+            height:30px;
+            width:90%;
+            background-color: rgb(162, 167, 172);
+            backdrop-filter:blur(8px);
+            padding: 5px;
+            position:fixed;
+            top: 0;
+            z-index:100;
+            margin-right:5px;
+        }
+        #ab{
+            margin-left:30px;
+        }
+        .divclass:hover a{
+            filter: blur(2px);
+        }
+        .divclass a:hover{
+            color: rgb(252, 248, 248);
+            filter:blur(0px);
+        }
+        #ig{
+            margin-top:15px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <!-- Home sec start -->
+       <div class="home">
+        <nav>
+            <a href="#abt">ABOUT</a>
+            <a href="#ps">PROJECT</a>
+            <a href="#con">CONTACT</a>
+            <a href="#abt"></a>
+            <!-- <a href="#icon">material-symbols-outlined</a> -->
+        </nav>
+        <div class="name" >
+           <!-- <center> -->
+            <h1>Hi, I am Likhitha</h1>
+            <h2>A Full Stack Developer</h2>
+           <!-- </center> -->
+           <center>
+            <a href="#abt" id="home-icon">
+                <span class="material-symbols-outlined" id="icon">
+                   expand_circle_down
+                </span>
+            </a>
+           </center>
+        </div>
+       </div>
+       </div>
+       <!-- Home end -->
+       <!-- about -->
+       <div class="about" id="abt">
+        <h2>ABOUT ME</h2>
+        <img src="pictr.jpg" alt="">
+        <p>I'm 21 Years old,B.E student at Mysuru Royal Institute of technology.I really enjoy problem solving as well as making things pretty and easy to use.I believe in "Practice makes more Improvements".
+       </p>
+       </div>
+
+    </div>
+     <!-- end -->
+
+        <!-- skills start -->
+          <div class="skills">
+            <h1>SKILLS</h1><br>
+            <p><b>C Programming Language</b></p><br>
+            <div class="outer1">
+        
+             <div class="clang"><p><b>90%</b></div> 
+            
+            </div><br>
+            <p><b>Python</b></p><br>
+            <div class="outer2">
+        
+             <div class="python"><p><b>70%</b></div> 
+            
+            </div><br>
+            <p><b>HTML</b></p><br>
+            <div class="outer3">
+        
+             <div class="html"><p><b>90%</b></div> 
+            
+            </div><br>
+            <p><b>CSS</b></p><br>
+            <div class="outer4">
+        
+             <div class="css"><p><b>70%</b></div> 
+            
+            </div><br>
+            <p><b>SQL</b></p><br>
+            <div class="outer5">
+        
+             <div class="sql"><p><b>70%</b></div> 
+            
+            </div>
+        </div>
+        <!-- skills end -->
+
+        <!-- project start -->
+        <div class="projects" id="ps">
+            <h1>PROJECTS</h1>
+            <img src="cybr.jpg" alt="">
+            <p><b>Cyber Security Characterization Model Based on Artificial Intelligence in CPS</b></p>
+            <a href=""><button class="pro11">View Project</button></a>
+            <a href="file:///C:/Users/Likhitha%20A%20M/Edited%20final%20report.pdf"><button class="pro12">View Source Code</button></a>
+    <br>
+     <div class="ott"> <img src="prjott.jpg" alt=""></div>
+      <p><b>OTT Platform</b></p>
+      <a href="file:///C:/Users/Likhitha%20A%20M/web%20pysp3/project/OTT/index.html"><button class="pro11">View Project</button></a>
+     <a href="https://github.com/LikhithaAM/OTT"><button class="pro12">View Source Code</button></a>
+<br>
+  <div class="port"><img src="pictr.jpg" alt=""></div>
+  <p><b>My Portfolio</b></p>
+  <a href="file:///C:/Users/Likhitha%20A%20M/web%20pysp3/project/portfolio/index.html"><button class="pro11">View Project</button></a>
+  <a href="https://github.com/LikhithaAM/PORTPOLIO"><button class="pro12">View Source Code</button></a>
+</div>
+</div>
+
+  <!-- project end -->
+  <div class="resume" style="width: 100%;">
+    <h1>RESUME</h1><br><br><br>
+    <a href="file:///C:/Users/Likhitha%20A%20M/Likhitha%20AM.pdf"><button class="resume1"><p><b>View Resume</b></p></button></a>
+</div>
+
+  <!-- CONTACT DETALS -->
+<div class="contacts" id="con">
+    <h1>CONTACT</h1><br><br><br><br>
+    <a href=""><img src="phnic.jpg" alt="" id="ph"><p id="ph1"><b>8088652292</b></p></a>  
+    <img src="or.png" alt="" id="or">
+    <a href="mailto:likhitha02am@gmail.com"><img src="eml.jpg" alt="" id="em"><p id="em1"><b>likhitha02am@gmail.com</b></p></a>
+    <img src="or.png" alt="" id="or1">
+    <a href="https://www.instagram.com/" id="ig"><img src="inst.jpg" alt="" id="in"><p id="in1"><b>likhitha_mgowda</b></p></a><br>
+    <!-- <img src="or.png" alt="" id="or3"> -->
+    <!-- <a href="https://www.linkedin.com/feed/"><img src="lnk.jpg" alt="" id="ln"><p id="ln1"><b>Likhitha</b></p></a>  -->
+</div>     
+</body>
+</html>
+</body>
+</html>
